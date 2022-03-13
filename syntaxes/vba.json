@@ -3,7 +3,7 @@
     "Modified from the original ASP bundle. Originally modified by Thomas Aylott subtleGradient.com",
   "fileTypes": ["bas", "cls", "frm", "sht", "wbk"],
   "foldingStartMarker":
-    "(<(?i:(head|table|div|style|script|ul|ol|form|dl))\\b.*?>|\\{|^\\s*<?%?\\s*'?\\s*(?i:(sub|private\\s+Sub|public\\s+Sub|function|if|while|For))\\s*.*$)",
+    "(<(?i:(head|table|div|style|script|ul|ol|form|dl))\\b.*?>|\\{|^\\s*<?%?\\s*'?\\s*(?i:(sub|private\\s+Sub|public\\s+Sub|function|property|if|while|For))\\s*.*$)",
   "foldingStopMarker":
     "(</(?i:(head|table|div|style|script|ul|ol|form|dl))>?|\\}|^\\s*<?%?\\s*\\s*'?\\s*(?i:(end|Next))\\s*.*$)",
   "keyEquivalent": "^~A",
@@ -97,7 +97,7 @@
     },
     {
       "match":
-        "(?i:\\s*\\b(Const|Dim|As|ReDim|Function|Sub|End|Enum|Type|Public|Private|Friend|Implements|Call|Set|Let|Get|New|Randomize|Option Explicit|On Error Resume Next|On Error GoTo|ByRef|ByVal|Public Function|Private Function|Preserve)\\b\\s*)",
+        "(?i:\\s*\\b(Const|Dim|As|ReDim|Function|Sub|Property|End|Enum|Type|Public|Private|Friend|Implements|Call|Set|Let|Get|New|Randomize|Option Explicit|On Error Resume Next|On Error GoTo|ByRef|ByVal|Public Function|Private Function|Preserve)\\b\\s*)",
       "name": "storage.type.asp"
     },
     {
